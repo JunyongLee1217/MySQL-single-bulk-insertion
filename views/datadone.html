@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Created</title>
+</head>
+<body>
+    <div>
+        <p1>Database created with given condition from you.</p1>
+    </div>
+
+    <div>
+        <form action="/drop" method ="POST">
+            <button name="drop">Delete Data</button>
+            <label> Table Name: </label>
+            <input type="text" name = "tablename">
+        </form>
+    </div>
+
+    <div>
+
+
+        <label>QUERY INPUT BOX</label>
+        <form action="/inputquery" method="POST">
+            <input type="text" name = "userquery">
+            <button type='submit'>Submit</button>
+        </form>
+        
+        
+
+    </div>
+
+    <a href='/'>
+        <button>Go back to the Main Page</button>
+    </a>
+    
+
+    
+</body>
+</html>

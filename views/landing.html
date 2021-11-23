@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+</head>
+<body>
+    <main>
+        <p3>DB Insertion Form</p3>
+        
+        <form action="/result" method="POST">
+            
+
+            <div>
+                <label>Type file name in the same folder:</label> 
+                <input type="text" name = "filename">
+            </div>
+
+            
+            <div>
+                <label> Choose insertion method :</label>
+                <select id="insertMethod" name = "insertion">
+                    <option value="single">Single Insertion</option>
+                    <option value="bulk">Bulk Insertion</option>
+    
+                </select>
+                <input type="submit" name="method">
+            </div>
+
+            
+        </form>
+    </main>
+</body>
+</html>
