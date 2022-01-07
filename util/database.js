@@ -12,7 +12,7 @@ const connection = mysql.createConnection({
     host: 'localhost',
     //database: 'phase2',
     user: 'root',
-    password: 'Sodapop1324!'
+    password: ''
 });
 
 connection.connect( (err) => {
